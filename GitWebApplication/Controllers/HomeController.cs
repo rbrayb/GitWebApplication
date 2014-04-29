@@ -27,7 +27,7 @@ namespace GitWebApplication.Controllers
             
             // Comment
             
-            System.Diagnostics.Trace.WriteLine("We are in the Contact page - Yippee");
+            System.Diagnostics.Trace.TraceInformation("We are in the Contact page - Yippee");
            
             return View();
         }
