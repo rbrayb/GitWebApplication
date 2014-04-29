@@ -25,7 +25,7 @@ namespace GitWebApplication.Controllers
             ViewBag.Message = "Your contact page.";
             ViewBag.Demo = "Demo.";
             
-            System.Diagnostics.Trace.WriteLine("We are in the Contact page - Yippee")
+            System.Diagnostics.Trace.WriteLine("We are in the Contact page - Yippee");
            
             return View();
         }
