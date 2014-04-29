@@ -23,7 +23,8 @@ namespace GitWebApplication.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            ViewBag.Demo = "Demo.";
+           
             return View();
         }
     }
