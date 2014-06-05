@@ -12,6 +12,8 @@ namespace GitWebApplication.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            
+            System.Diagnostics.Trace.TraceInformation("We are in the About page");
 
             return View();
         } 
@@ -23,7 +25,7 @@ namespace GitWebApplication.Controllers
             
             // Comment
             
-            System.Diagnostics.Trace.TraceInformation("We are in the Contact page - Yippee");
+            System.Diagnostics.Trace.TraceInformation("We are in the Contact page");
            
             return View();
         }
